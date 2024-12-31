@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Nyx Void</title>
-    <link>https://nyx-void.github.io/</link>
-    <description>Recent content in Home on Nyx Void</description>
+    <title>Home on Amritxyz</title>
+    <link>https://amritxyz.github.io/</link>
+    <description>Recent content in Home on Amritxyz</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nyx-void.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://amritxyz.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Do</title>
-      <link>https://nyx-void.github.io/blog/1-blog/</link>
+      <link>https://amritxyz.github.io/blog/1-blog/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://nyx-void.github.io/blog/1-blog/</guid>
+      <guid>https://amritxyz.github.io/blog/1-blog/</guid>
       <description>&lt;p&gt;Consuming can make a person more knowledgable. There is value in knowledge. But there can be no positive change until you create.&lt;/p&gt;&#xA;&lt;p&gt;Distraction is fear. Recognize it in you, feel it, spend a moment with it, thank it and then choose the other path. Do! Create, engage and help.&lt;/p&gt;&#xA;&lt;p&gt;When you consume, put your intention into love and be with yourself, whole and aware. Otherwise put your intention into love, and do.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rise above</title>
-      <link>https://nyx-void.github.io/blog/3-blog/</link>
+      <link>https://amritxyz.github.io/blog/3-blog/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://nyx-void.github.io/blog/3-blog/</guid>
+      <guid>https://amritxyz.github.io/blog/3-blog/</guid>
       <description>&lt;p&gt;In life, challenges often seem insurmountable, obstacles loom large, and doubts whisper in the shadows.&lt;/p&gt;&#xA;&lt;p&gt;Yet, it is during these moments of adversity that our true strength is revealed.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;In tough times, we rise strong like the phoenix, flying past limits, powered by our resilience and steadfast faith.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Like a phoenix rising from the ashes, we have the power to transcend limitations and soar to new heights. With resilience as our wings and determination as our compass, we navigate through turbulent skies, guided by the unwavering belief that within us lies the capacity to overcome.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Social media</title>
-      <link>https://nyx-void.github.io/blog/2-blog/</link>
+      <link>https://amritxyz.github.io/blog/2-blog/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://nyx-void.github.io/blog/2-blog/</guid>
+      <guid>https://amritxyz.github.io/blog/2-blog/</guid>
       <description>&lt;p&gt;Do you ever think that using social media, or what I like to call &amp;ldquo;stupid media&amp;rdquo;, from a tiny corner of your room makes you a step away from society or being social? Think about it, you&amp;rsquo;re wasting hours of your precious life scrolling through feeds, liking and commenting on posts that are utterly irrelevant to your existence.&lt;/p&gt;&#xA;&lt;p&gt;I mean, no, why should I think about it? Mind your own business, I use these platforms just for fun, I enjoy scrolling through my phone screen&amp;hellip; But let&amp;rsquo;s be real, we both know that&amp;rsquo;s just a lie. We&amp;rsquo;re all addicted to the constant stream of information, and we&amp;rsquo;re too afraid to admit it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Software Development</title>
-      <link>https://nyx-void.github.io/blog/4-blog/</link>
+      <link>https://amritxyz.github.io/blog/4-blog/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://nyx-void.github.io/blog/4-blog/</guid>
+      <guid>https://amritxyz.github.io/blog/4-blog/</guid>
       <description>&lt;h4 class=&#34;heading&#34; id=&#34;simplicity-is-core-to-my-software-development-because-it-leads-to&#34;&gt;&#xA;  Simplicity is core to my software development, because it leads to;&#xA;  &lt;a href=&#34;#simplicity-is-core-to-my-software-development-because-it-leads-to&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;fewer bugs,&lt;/li&gt;&#xA;&lt;li&gt;better performance,&lt;/li&gt;&#xA;&lt;li&gt;lower memory footprint,&lt;/li&gt;&#xA;&lt;li&gt;better maintainability,&lt;/li&gt;&#xA;&lt;li&gt;higher scalability,&lt;/li&gt;&#xA;&lt;li&gt;longer software lifetime,&lt;/li&gt;&#xA;&lt;li&gt;prompt delivery;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;…all of which lead to a better quality finished product.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://nyx-void.github.io/about/</link>
+      <link>https://amritxyz.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nyx-void.github.io/about/</guid>
+      <guid>https://amritxyz.github.io/about/</guid>
       <description>&lt;p&gt;My primary programming languages are Rust and C, which I use to create software that is both reliable and performant.&lt;/p&gt;&#xA;&lt;p&gt;My expertise lies in designing solutions that are straightforward yet powerful, ensuring that they are easy to maintain and deliver exceptional performance.&lt;/p&gt;&#xA;&lt;p&gt;Feel free to stay in touch with me on &lt;a href=&#34;https://www.linkedin.com/in/amrit-bhattarai-30ab42323/&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
