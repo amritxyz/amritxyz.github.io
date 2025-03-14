@@ -36,12 +36,5 @@
       <guid>https://amritxyz/posts/software_development/</guid>
       <description>&lt;h4 id=&#34;simplicity-is-core-to-my-software-development-because-it-leads-to&#34;&gt;Simplicity is core to my software development, because it leads to;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;fewer bugs,&lt;/li&gt;&#xA;&lt;li&gt;better performance,&lt;/li&gt;&#xA;&lt;li&gt;lower memory footprint,&lt;/li&gt;&#xA;&lt;li&gt;better maintainability,&lt;/li&gt;&#xA;&lt;li&gt;higher scalability,&lt;/li&gt;&#xA;&lt;li&gt;longer software lifetime,&lt;/li&gt;&#xA;&lt;li&gt;prompt delivery;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;…all of which lead to a better quality finished product.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>About</title>
-      <link>https://amritxyz/about/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://amritxyz/about/</guid>
-      <description>&lt;p&gt;My primary programming languages are &lt;strong&gt;Rust&lt;/strong&gt; and &lt;strong&gt;C&lt;/strong&gt;, which I use to create software that is both reliable and performant.&lt;/p&gt;&#xA;&lt;p&gt;My expertise lies in designing solutions that are straightforward yet powerful, ensuring that they are easy to maintain and deliver exceptional performance.&lt;/p&gt;&#xA;&lt;p&gt;Feel free to stay in touch with me on &lt;a href=&#34;https://www.linkedin.com/in/amrit-bhattarai-30ab42323/&#34;&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
