@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://amritxyz/</loc>
+    <lastmod>2025-02-16T16:36:41+02:00</lastmod>
+  </url><url>
+    <loc>https://amritxyz/posts/do/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amritxyz/posts/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amritxyz/posts/rise_above/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amritxyz/posts/social_media/</loc>
+    <lastmod>2024-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amritxyz/posts/software_development/</loc>
+    <lastmod>2024-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amritxyz/about/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amritxyz/categories/</loc>
+  </url><url>
+    <loc>https://amritxyz/tags/</loc>
+  </url>
+</urlset>
