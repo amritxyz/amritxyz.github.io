@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/void/.local/hugo-dir/golfed.xyz",
+	"sourceRoot": "/opt/void/hugo/raw-site",
 	"sources": [
 		"themes/nostyleplease/assets/css/main.scss"
 	],
