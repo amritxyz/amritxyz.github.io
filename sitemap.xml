@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://amritxyz/posts/</loc>
+    <lastmod>2025-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amritxyz/posts/dokkodo/</loc>
+    <lastmod>2025-07-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://amritxyz/</loc>
     <lastmod>2025-02-16T16:36:41+02:00</lastmod>
   </url><url>
     <loc>https://amritxyz/posts/do/</loc>
-    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amritxyz/posts/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://amritxyz/posts/rise_above/</loc>
