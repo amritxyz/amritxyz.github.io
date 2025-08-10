@@ -1,8 +1,9 @@
 <entry>
-  <title>Blogs</title>
+  <title>Blog</title>
   <link href="https://amritxyz.github.io/blog/"/>
   <id>https://amritxyz.github.io/blog/</id>
   <published>2025-07-18T00:00:00Z</published>
   <updated>2025-07-18T00:00:00Z</updated>
-  <content type="html"></content>
+  <content type="html">&lt;p&gt;My blog is where I share updates, thoughts, and anything else I feel like talking about. Whenever I have something interesting to share and the time and energy to write it down.&lt;/p&gt;
+</content>
 </entry>
