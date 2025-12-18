@@ -155,11 +155,11 @@ h1.logo {
 	padding-left: 2em;
 }
 
-.poem {
-	white-space: pre-line;
-	line-height: 0;
-	/* font-size: 1.1em; */
-}
+/* .poem { */
+/* white-space: pre-line; */
+/* line-height: 0; */
+/* font-size: 1.1em; */
+/* } */
 
 footer {
 	border-top: var(--border);
