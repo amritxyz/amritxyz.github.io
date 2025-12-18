@@ -1,9 +1,9 @@
-<entry>
-  <title>Write</title>
-  <link href="https://amritxyz.github.io/write/"/>
-  <id>https://amritxyz.github.io/write/</id>
-  <published>2024-08-09T00:00:00Z</published>
-  <updated>2024-08-09T00:00:00Z</updated>
-  <content type="html">&lt;p&gt;Just me, writing whatever comes to mind, nothing fancy, just the stuff I feel like sharing when I can.&lt;/p&gt;
-</content>
-</entry>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Amritxyz</title>
+  <link href="https://amritxyz.github.io/"/>
+  <updated>2025-12-18T20:37:44&#43;05:45</updated>
+  <id>https://amritxyz.github.io/</id>
+
+  
+  
+</feed>

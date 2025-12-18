@@ -1,8 +1,236 @@
-<entry>
+<feed xmlns="http://www.w3.org/2005/Atom">
   <title>Amritxyz</title>
   <link href="https://amritxyz.github.io/"/>
+  <updated>2025-12-18T20:37:44&#43;05:45</updated>
   <id>https://amritxyz.github.io/</id>
-  <published>2025-08-10T00:00:00Z</published>
-  <updated>2025-08-10T00:00:00Z</updated>
-  <content type="html"></content>
-</entry>
+
+  
+  
+    <entry>
+      <title>Poetry</title>
+      <link href="https://amritxyz.github.io/poetry/"/>
+      <id>https://amritxyz.github.io/poetry/</id>
+      <published>2025-08-10T00:00:00Z</published>
+      <updated>2025-08-10T00:00:00Z</updated>
+
+      <content type="html">
+        
+          <div class="post">
+            <h2><a href="https://amritxyz.github.io/poetry/c/">A NULL Romance</a></h2>
+            
+            
+
+            
+            <p>&lt;p&gt;I’m a void pointer, lost and undefined,
+Roaming through code, no type to bind.
+I’m searching for meaning, something to claim,
+But without her, i stay the same. &lt;br&gt;
+She’s a null pointer, quiet and still,
+Empty, waiting, yet free at will.
+I wander through the lines, incomplete,
+Hoping one day, our paths will meet. &lt;br&gt;
+Together, we could be more than this,
+A perfect match, a type we’d bliss.
+But for now, i drift in endless loops,
+Me, the void, and her, the null truth.&lt;/p&gt;
+</p>
+          </div>
+        
+          <div class="post">
+            <h2><a href="https://amritxyz.github.io/poetry/faves/">My Two Faves</a></h2>
+            
+            
+
+            
+            <p>&lt;p&gt;i strum the strings,
+but they don’t sound right.
+like my heart when you walk in
+all shaky and tight. &lt;br&gt;
+i practice chords for hours,
+trying to get it clean.
+but you smile, and i forget
+the song i’ve ever seen. &lt;br&gt;
+you don’t care if i mess up.
+you laugh, and say, “again!”
+and somehow, with you near,
+even wrong notes feel like rain
+soft, and kind of sweet,
+like a secret in the air. &lt;br&gt;
+i love my guitar,
+it’s my old, wooden friend.
+but i love you more
+you’re the song without an end. &lt;br&gt;
+you’re the tune i can’t learn,
+but keep trying every night.
+you’re the reason
+i play,
+and the reason
+i write.&lt;/p&gt;
+</p>
+          </div>
+        
+      </content>
+    </entry>
+  
+    <entry>
+      <title>Blog</title>
+      <link href="https://amritxyz.github.io/blog/"/>
+      <id>https://amritxyz.github.io/blog/</id>
+      <published>2025-07-18T00:00:00Z</published>
+      <updated>2025-07-18T00:00:00Z</updated>
+
+      <content type="html">
+        
+          <div class="post">
+            <h2><a href="https://amritxyz.github.io/blog/dokkodo/">The 21 Principles of Dokkōdō</a></h2>
+            
+            
+
+            
+            <p>&lt;p&gt;In the final days of his life, the legendary samurai Miyamoto Musashi wrote down a short but powerful list of life lessons called &lt;em&gt;Dokkōdō&lt;/em&gt;, or &lt;em&gt;“The Way of Walking Alone.”&lt;/em&gt; These 21 principles reflect a life shaped by discipline, self-awareness, and a deep sense of inner peace. They weren’t meant just for warriors, they’re for anyone looking for clarity and strength in everyday life.&lt;/p&gt;
+&lt;p&gt;I first came across Musashi while reading the manga &lt;em&gt;Vagabond&lt;/em&gt; by Takehiko Inoue, and I was immediately drawn to his character. Watching his transformation, from a wild, almost beast-like swordsman into a calm and thoughtful farmer, left a huge impression on me. That shift felt meaningful, and it made me curious about the real Musashi behind the story.&lt;/p&gt;
+&lt;p&gt;As I started digging deeper, I came across &lt;em&gt;Dokkōdō&lt;/em&gt;. Written just a week before his death, these 21 simple principles capture the core of Musashi’s personal philosophy. They’re honest, straightforward, and surprisingly relevant even today. Reading them, I felt like I was getting a glimpse into the mind of someone who had truly figured out what matters.&lt;/p&gt;
+&lt;h3 id=&#34;the-principles&#34;&gt;The Principles:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Accept everything just the way it is.&lt;/li&gt;
+&lt;li&gt;Do not seek pleasure for its own sake.&lt;/li&gt;
+&lt;li&gt;Do not, under any circumstances, depend on a partial feeling.&lt;/li&gt;
+&lt;li&gt;Think lightly of yourself and deeply of the world.&lt;/li&gt;
+&lt;li&gt;Be detached from desire your whole life long.&lt;/li&gt;
+&lt;li&gt;Do not regret what you have done.&lt;/li&gt;
+&lt;li&gt;Never be jealous.&lt;/li&gt;
+&lt;li&gt;Never let yourself be saddened by a separation.&lt;/li&gt;
+&lt;li&gt;Resentment and complaint are appropriate neither for oneself nor others.&lt;/li&gt;
+&lt;li&gt;Do not let yourself be guided by the feeling of lust or love.&lt;/li&gt;
+&lt;li&gt;In all things have no preferences.&lt;/li&gt;
+&lt;li&gt;Be indifferent to where you live.&lt;/li&gt;
+&lt;li&gt;Do not pursue the taste of good food.&lt;/li&gt;
+&lt;li&gt;Do not hold on to possessions you no longer need.&lt;/li&gt;
+&lt;li&gt;Do not act following customary beliefs.&lt;/li&gt;
+&lt;li&gt;Do not collect weapons or practice with weapons beyond what is useful.&lt;/li&gt;
+&lt;li&gt;Do not fear death.&lt;/li&gt;
+&lt;li&gt;Do not seek to possess either goods or fiefs for your old age.&lt;/li&gt;
+&lt;li&gt;Respect Buddha and the gods without counting on their help.&lt;/li&gt;
+&lt;li&gt;You may abandon your own body but you must preserve your honor.&lt;/li&gt;
+&lt;li&gt;Never stray from the Way.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These principles aren’t about cutting yourself off from the world, they’re about living with intention. In a world that’s constantly loud and distracting, Musashi’s words are a reminder to move through life with calm, focus, and a clear sense of purpose.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Follow your own path. Stay true to what matters.&lt;/p&gt;
+&lt;/blockquote&gt;
+</p>
+          </div>
+        
+          <div class="post">
+            <h2><a href="https://amritxyz.github.io/blog/social_media/">Social media</a></h2>
+            
+            
+
+            
+            <p>&lt;p&gt;&lt;strong&gt;Are We Really Being Social?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It’s easy to get caught up in the world of social media, scrolling through endless feeds, liking posts, and commenting on things that may not really matter in the grand scheme of our lives. But have you ever stopped to think: is this really bringing us closer to being social, or is it actually pulling us further away from real connection?&lt;/p&gt;
+&lt;p&gt;Sure, you might argue that it’s just harmless fun, something to kill time. But let’s be honest with ourselves for a moment, we’ve all fallen into the trap of endlessly scrolling, hooked on that constant stream of information. And deep down, we know it’s not just for fun anymore. It’s become an addiction we’re too afraid to admit.&lt;/p&gt;
+&lt;p&gt;If this hits a nerve, it’s okay, no judgment. But let’s face it: this isn’t real connection. We’re all spending hours of our lives chasing likes, followers, and empty validation instead of truly engaging with the world around us.&lt;/p&gt;
+&lt;p&gt;And don’t even get me started on influencers. Many of them make a living promoting products they’ve never even used, selling a lifestyle that’s as fake as their #ad posts. It’s all part of the same cycle: a race to consumerism and validation in an artificial, digital world.&lt;/p&gt;
+&lt;p&gt;Here’s the hard truth: to be social, we need to be real. And I can’t help but wonder if this online world we’ve created really qualifies as a community. Because in reality, it’s just a bunch of disconnected people seeking attention and validation from strangers, often at the expense of our own well-being.&lt;/p&gt;
+&lt;p&gt;It’s funny how attached we can get to our online identities. The fear of losing our account, worrying about being hacked. But does it really matter? What’s the value of something so transient?&lt;/p&gt;
+&lt;p&gt;I know, it’s easy to brush these thoughts aside. We’re all guilty of being wrapped up in it. But at the end of the day, I can’t help but wonder: What are we sacrificing by staying glued to our screens?&lt;/p&gt;
+&lt;p&gt;If you’re reading this and feeling something stir, maybe it’s time for a little break. Step outside, breathe in the fresh air, and take a walk. I promise, that’s where the real connection happens out in the world, not through a screen.&lt;/p&gt;
+&lt;p&gt;Don’t wait too long. The longer you stay inside, the more you’ll miss out on what life is really about.&lt;/p&gt;
+</p>
+          </div>
+        
+      </content>
+    </entry>
+  
+    <entry>
+      <title>Write</title>
+      <link href="https://amritxyz.github.io/write/"/>
+      <id>https://amritxyz.github.io/write/</id>
+      <published>2024-08-09T00:00:00Z</published>
+      <updated>2024-08-09T00:00:00Z</updated>
+
+      <content type="html">
+        
+          <div class="post">
+            <h2><a href="https://amritxyz.github.io/write/life/">The Simple Path to a Fulfilling Life</a></h2>
+            
+            
+
+            
+            <p>&lt;p&gt;&lt;em&gt;Its not that complicated, its not easy, but it is simple.&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Accept yourself as someone valuable unconditionally :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accept yourself as a valuable and worth-while Human Being. &lt;br&gt;
+Don’t be the type of person who doesn’t feel they are good enough. &lt;br&gt;
+Recognize that you’re put here on this earth for a specific purpose, &lt;br&gt;
+A valuable purpose. God doesn’t make anybody extra. &lt;br&gt;
+God don’t make no junk. There is nobody on this earth that is here &lt;br&gt;
+For no reason. Everybody has a purpose and your purpose is to find &lt;br&gt;
+Your purpose. Your purpose is to find your mission. The place where &lt;br&gt;
+Can make a significant contribution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Accept the responsibility of your actions :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accept total responsibility for everything that you are, &lt;br&gt;
+And everything that you become. &lt;br&gt;
+Which means no &lt;em&gt;Blaming&lt;/em&gt;, no &lt;em&gt;excuses&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learn to forgive yourself and others without grudges :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The key to kingdom of heaven is forgiveness the key to &lt;br&gt;
+All spiritual development straight gate is forgiveness, &lt;br&gt;
+the ability to freely forgive. No grudges, no anger, &lt;br&gt;
+no frustration, just let go up all grudges against you. &lt;br&gt;
+That’s why it says in lord’s prayer. &lt;br&gt;
+‘Forgive us our sins, as we forgive those who sin against us.’&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Feed your mind with positive and loving thought :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Don’t feed your mind with mental candy, mental junk. &lt;br&gt;
+Feed you mind with the kinds of though that are consistent &lt;br&gt;
+with you becoming very best person you can be possibly be.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set noble goals and work towards them :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Say to yourself yeah these are the values, these the goal &lt;br&gt;
+these the ideals of the very good person that you can possibly be.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Take care of your body :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Remember the body is the temple of the spirit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</p>
+          </div>
+        
+          <div class="post">
+            <h2><a href="https://amritxyz.github.io/write/coffee/">Coffee</a></h2>
+            
+            
+
+            
+            <p>&lt;p&gt;&lt;strong&gt;Coffee&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’m not really sure why I’m writing this, maybe just to share a thought or two.&lt;/p&gt;
+&lt;p&gt;“Love is like coffee and sugar. At first, it’s not about the sweetness, but the warmth it brings. Over time, you figure out the perfect mix. It’s not about what’s on the surface, it’s how we just fit together.”&lt;/p&gt;
+&lt;p&gt;I guess that’s how life works too. We’re drawn to things for the comfort they give, not just the shiny parts. Over time, we realize what truly matters is how something or someone makes us feel, like that first cup of coffee in the morning, or the person who just feels like home.&lt;/p&gt;
+</p>
+          </div>
+        
+      </content>
+    </entry>
+  
+</feed>
