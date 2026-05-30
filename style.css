@@ -21,8 +21,6 @@ body {
 	padding: 1em;
 	font: 1.2em/1.6 monospace;
 
-	/* chromium changes the width of the viewport depending on whether
-     or not the page is long enough to require a scrollbar. */
 	overflow-y: scroll;
 }
 
@@ -41,20 +39,20 @@ p {
 
 a {
 	color: inherit;
-	/* Works around what seems to be a chromium bug, This should be
-     inherited from the body but isn't */
 	fill: inherit;
 }
 
-a:hover {
+a:hover, .menu-button:hover {
 	color: var(--bg);
 	fill: var(--bg);
 	background-color: var(--fg);
 	text-decoration: none;
+
+	.close-icon {
+		stroke: var(--bg);
+	}
 }
 
-/* This can be used to hint where a line break makes most sense if
-   wrapping is necessary. */
 span.line {
 	display: inline-block;
 }
@@ -80,6 +78,7 @@ header nav {
 		svg {
 			display: block;
 			width: 3em;
+			height: 3em;
 		}
 	}
 
@@ -104,6 +103,78 @@ header nav {
 		padding: 0 0.5em;
 		font-weight: bold;
 		text-decoration: none;
+	}
+}
+
+#toggle {
+	display: none;
+}
+
+.menu {
+	display: none;
+	align-items: center;
+}
+
+.menu-button {
+	margin: 1em;
+	padding: 0.3em;
+	cursor: pointer;
+}
+
+.menu-icon {
+	display: block;
+	height: 2em;
+}
+
+.close-icon {
+	display: none;
+	height: 2em;
+	stroke: var(--fg);
+}
+
+#toggle:checked + .nav-bar {
+	.menu-icon {
+		display: none;
+	}
+
+	.close-icon {
+		display: block;
+	}
+}
+
+@media (max-width: 600px) {
+	header nav {
+		display: block;
+		border: none;
+	}
+
+	.nav-bar {
+		display: flex;
+		justify-content: space-between;
+		border-bottom: var(--border);
+	}
+
+	.menu {
+		display: flex;
+	}
+
+	header .nav-items {
+		display: none;
+		flex-direction: column;
+		background-color: var(--bg);
+		width: 100%;
+		margin: 0;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		border-bottom: var(--border);
+
+		a {
+			margin: 0 1em;
+		}
+	}
+
+	#toggle:checked ~ .nav-items {
+		display: flex;
 	}
 }
 
@@ -155,6 +226,12 @@ h1.logo {
 	padding-left: 2em;
 }
 
+/* .poem { */
+/* white-space: pre-line; */
+/* line-height: 0; */
+/* font-size: 1.1em; */
+/* } */
+
 footer {
 	border-top: var(--border);
 	padding: 1em;
@@ -172,6 +249,7 @@ footer {
 
 	svg {
 		width: 8em;
+		height: 8em;
 		margin: 1em;
 	}
 
