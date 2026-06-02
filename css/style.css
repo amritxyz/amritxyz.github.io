@@ -1,13 +1,10 @@
 /* Layout */
-html {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	font-family: 'Fira Code', 'Nanum Gothic Coding', monospace;
 	display: flex;
 	flex-flow: row;
+	margin: 0;
+	padding: 0;
 }
 
 body>header {
@@ -34,7 +31,10 @@ body>header p {
 	flex-flow: column;
 }
 
-#main>nav,
+#main>nav a {
+	line-height: 2em;
+}
+
 #main>main,
 #main>footer {
 	padding: 15px;
@@ -224,18 +224,19 @@ iframe.video {
 
 	/* Sidebar logo */
 	body > header h1 {
-		font-size: 4.5rem;
+		width: auto;
+		font-size: 6rem;
 		line-height: 1;
+	}
+
+	article > header h1,
+	main > h1 {
+		font-size: 1.6rem;
 	}
 
 	body > header p {
 		font-size: 0.9rem;
 		margin-top: 0.5rem;
-	}
-
-	body>header h1 {
-		width: auto;
-		font-size: 4em;
 	}
 
 	/* Homepage hero */
