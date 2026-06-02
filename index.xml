@@ -1,137 +1,70 @@
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Amritxyz</title>
-  <link href="https://amritxyz.github.io/"/>
-  <updated>2026-06-02T15:11:26&#43;05:45</updated>
-  <id>https://amritxyz.github.io/</id>
-
-  
-  
-    <entry>
-      <title>Consulting</title>
-      <link href="https://amritxyz.github.io/consulting/"/>
-      <id>https://amritxyz.github.io/consulting/</id>
-      <published>2026-06-02T00:00:00Z</published>
-      <updated>2026-06-02T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;I am a highly experienced software engineer and consultant.&lt;/p&gt;
-&lt;p&gt;My areas of expertise include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Systems programming&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Software architecture&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Protocol design and implementation&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Game development&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Profiling and optimization&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Open source software&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Feel free to reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt;
-for a resume/CV and further information if you are interested in hiring me.&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;I am a highly experienced software engineer and consultant.&lt;/p&gt;
-&lt;p&gt;My areas of expertise include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Systems programming&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Software architecture&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Protocol design and implementation&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Game development&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Profiling and optimization&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Open source software&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Feel free to reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt;
-for a resume/CV and further information if you are interested in hiring me.&lt;/p&gt;
-
-      </content>
-    </entry>
-  
-    <entry>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amritxyz</title>
+    <link>/</link>
+    <description>Recent content on Amritxyz</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>amrit44404@proton.me (Amritxyz)</managingEditor>
+    <webMaster>amrit44404@proton.me (Amritxyz)</webMaster>
+    <lastBuildDate>Tue, 02 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Imprint</title>
+      <link>/imprint/</link>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <author>amrit44404@proton.me (Amritxyz)</author>
+      <guid>/imprint/</guid>
+      <description>&lt;p&gt;Address:&lt;/p&gt;
+&lt;p&gt;Amrit Bhattarai &lt;br&gt;
+NamastePath 01 &lt;br&gt;
+Butwal 13 &lt;br&gt;
+Nepal&lt;/p&gt;
+&lt;p&gt;E-Mail:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;amrit44404@proton.me&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+      
+    </item>
+    
+    <item>
       <title>A NULL Romance</title>
-      <link href="https://amritxyz.github.io/poetry/c/"/>
-      <id>https://amritxyz.github.io/poetry/c/</id>
-      <published>2025-08-10T00:00:00Z</published>
-      <updated>2025-08-10T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;I’m a void pointer, no type at all, &lt;br&gt;
-I can be anything, but I’m nothing’s call. &lt;br&gt;
-I’m looking for meaning, searching for you, &lt;br&gt;
-But I don’t even know what I’m supposed to do.&lt;/p&gt;
-&lt;p&gt;You’re a null pointer, pointing to nothing, &lt;br&gt;
+      <link>/poetry/c/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <author>amrit44404@proton.me (Amritxyz)</author>
+      <guid>/poetry/c/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a void pointer, no type at all, &lt;br&gt;
+I can be anything, but I&amp;rsquo;m nothing&amp;rsquo;s call. &lt;br&gt;
+I&amp;rsquo;m looking for meaning, searching for you, &lt;br&gt;
+But I don&amp;rsquo;t even know what I&amp;rsquo;m supposed to do.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re a null pointer, pointing to nothing, &lt;br&gt;
 Empty by design, you hold no thing. &lt;br&gt;
-We’re both incomplete in our own way, &lt;br&gt;
-Trying to find what we’re meant to say.&lt;/p&gt;
+We&amp;rsquo;re both incomplete in our own way, &lt;br&gt;
+Trying to find what we&amp;rsquo;re meant to say.&lt;/p&gt;
 &lt;p&gt;We drift through memory, nowhere to go, &lt;br&gt;
-Two broken pointers, that’s all we know. &lt;br&gt;
+Two broken pointers, that&amp;rsquo;s all we know. &lt;br&gt;
 If we could connect, if we could align, &lt;br&gt;
-Maybe we’d become something that’s fine.&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;I’m a void pointer, no type at all, &lt;br&gt;
-I can be anything, but I’m nothing’s call. &lt;br&gt;
-I’m looking for meaning, searching for you, &lt;br&gt;
-But I don’t even know what I’m supposed to do.&lt;/p&gt;
-&lt;p&gt;You’re a null pointer, pointing to nothing, &lt;br&gt;
-Empty by design, you hold no thing. &lt;br&gt;
-We’re both incomplete in our own way, &lt;br&gt;
-Trying to find what we’re meant to say.&lt;/p&gt;
-&lt;p&gt;We drift through memory, nowhere to go, &lt;br&gt;
-Two broken pointers, that’s all we know. &lt;br&gt;
-If we could connect, if we could align, &lt;br&gt;
-Maybe we’d become something that’s fine.&lt;/p&gt;
-&lt;p&gt;But now we’re just lost in the empty space, &lt;br&gt;
+Maybe we&amp;rsquo;d become something that&amp;rsquo;s fine.&lt;/p&gt;
+&lt;p&gt;But now we&amp;rsquo;re just lost in the empty space, &lt;br&gt;
 A void and a null in this lonely place. &lt;br&gt;
-We’re lost, but maybe it’s true &lt;br&gt;
-That’s exactly why I need you.&lt;/p&gt;
-
-      </content>
-    </entry>
-  
-    <entry>
+We&amp;rsquo;re lost, but maybe it&amp;rsquo;s true &lt;br&gt;
+That&amp;rsquo;s exactly why I need you.&lt;/p&gt;
+</description>
+      
+      
+    </item>
+    
+    <item>
       <title>The 21 Principles of Dokkōdō</title>
-      <link href="https://amritxyz.github.io/blog/dokkodo/"/>
-      <id>https://amritxyz.github.io/blog/dokkodo/</id>
-      <published>2025-07-18T00:00:00Z</published>
-      <updated>2025-07-18T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;In the final days of his life, the legendary samurai Miyamoto Musashi wrote down a short but powerful list of life lessons called &lt;em&gt;Dokkōdō&lt;/em&gt;, or &lt;em&gt;“The Way of Walking Alone.”&lt;/em&gt; These 21 principles reflect a life shaped by discipline, self-awareness, and a deep sense of inner peace. They weren’t meant just for warriors, they’re for anyone looking for clarity and strength in everyday life.&lt;/p&gt;
-&lt;p&gt;I first came across Musashi while reading the manga &lt;em&gt;Vagabond&lt;/em&gt; by Takehiko Inoue, and I was immediately drawn to his character. Watching his transformation, from a wild, almost beast-like swordsman into a calm and thoughtful farmer, left a huge impression on me. That shift felt meaningful, and it made me curious about the real Musashi behind the story.&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;In the final days of his life, the legendary samurai Miyamoto Musashi wrote down a short but powerful list of life lessons called &lt;em&gt;Dokkōdō&lt;/em&gt;, or &lt;em&gt;“The Way of Walking Alone.”&lt;/em&gt; These 21 principles reflect a life shaped by discipline, self-awareness, and a deep sense of inner peace. They weren’t meant just for warriors, they’re for anyone looking for clarity and strength in everyday life.&lt;/p&gt;
+      <link>/blog/dokkodo/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <author>amrit44404@proton.me (Amritxyz)</author>
+      <guid>/blog/dokkodo/</guid>
+      <description>&lt;p&gt;In the final days of his life, the legendary samurai Miyamoto Musashi wrote down a short but powerful list of life lessons called &lt;em&gt;Dokkōdō&lt;/em&gt;, or &lt;em&gt;“The Way of Walking Alone.”&lt;/em&gt; These 21 principles reflect a life shaped by discipline, self-awareness, and a deep sense of inner peace. They weren’t meant just for warriors, they’re for anyone looking for clarity and strength in everyday life.&lt;/p&gt;
 &lt;p&gt;I first came across Musashi while reading the manga &lt;em&gt;Vagabond&lt;/em&gt; by Takehiko Inoue, and I was immediately drawn to his character. Watching his transformation, from a wild, almost beast-like swordsman into a calm and thoughtful farmer, left a huge impression on me. That shift felt meaningful, and it made me curious about the real Musashi behind the story.&lt;/p&gt;
 &lt;p&gt;As I started digging deeper, I came across &lt;em&gt;Dokkōdō&lt;/em&gt;. Written just a week before his death, these 21 simple principles capture the core of Musashi’s personal philosophy. They’re honest, straightforward, and surprisingly relevant even today. Reading them, I felt like I was getting a glimpse into the mind of someone who had truly figured out what matters.&lt;/p&gt;
 &lt;h3 id=&#34;the-principles&#34;&gt;The Principles:&lt;/h3&gt;
@@ -162,40 +95,18 @@ That’s exactly why I need you.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Follow your own path. Stay true to what matters.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-      </content>
-    </entry>
-  
-    <entry>
+</description>
+      
+      
+    </item>
+    
+    <item>
       <title>My Two Faves</title>
-      <link href="https://amritxyz.github.io/poetry/faves/"/>
-      <id>https://amritxyz.github.io/poetry/faves/</id>
-      <published>2025-06-09T00:00:00Z</published>
-      <updated>2025-06-09T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;i strum the strings, &lt;br&gt;
-but they don’t sound right. &lt;br&gt;
-like my heart when you walk in, &lt;br&gt;
-it beats too fast inside.&lt;/p&gt;
-&lt;p&gt;i practice chords for hours, &lt;br&gt;
-trying to get it clean. &lt;br&gt;
-but you smile, and i forget, &lt;br&gt;
-the song i’ve ever seen.&lt;/p&gt;
-&lt;p&gt;you don’t care if i mess up, &lt;br&gt;
-you laugh, and say, “again!”. &lt;br&gt;
-and somehow, with you near, &lt;br&gt;
-even wrong notes feel like rain.&lt;/p&gt;
-&lt;p&gt;i love my guitar, &lt;br&gt;
-it’s my old, wooden friend. &lt;br&gt;
-but i love you more, &lt;br&gt;
-you’re the song without an end.&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;i strum the strings, &lt;br&gt;
+      <link>/poetry/faves/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <author>amrit44404@proton.me (Amritxyz)</author>
+      <guid>/poetry/faves/</guid>
+      <description>&lt;p&gt;i strum the strings, &lt;br&gt;
 but they don’t sound right. &lt;br&gt;
 like my heart when you walk in, &lt;br&gt;
 it beats too fast inside.&lt;/p&gt;
@@ -217,50 +128,27 @@ you’re the reason &lt;br&gt;
 i play, &lt;br&gt;
 and the reason &lt;br&gt;
 i write.&lt;/p&gt;
-
-      </content>
-    </entry>
-  
-    <entry>
+</description>
+      
+      
+    </item>
+    
+    <item>
       <title>The Simple Path to a Fulfilling Life</title>
-      <link href="https://amritxyz.github.io/write/life/"/>
-      <id>https://amritxyz.github.io/write/life/</id>
-      <published>2024-08-09T00:00:00Z</published>
-      <updated>2024-08-09T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;&lt;em&gt;Its not that complicated, its not easy, but it is simple.&lt;/em&gt;&lt;/p&gt;
+      <link>/write/life/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <author>amrit44404@proton.me (Amritxyz)</author>
+      <guid>/write/life/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Its not that complicated, its not easy, but it is simple.&lt;/em&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Accept yourself as someone valuable unconditionally :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Accept yourself as a valuable and worth-while Human Being. &lt;br&gt;
-Don’t be the type of person who doesn’t feel they are good enough. &lt;br&gt;
-Recognize that you’re put here on this earth for a specific purpose, &lt;br&gt;
-A valuable purpose. God doesn’t make anybody extra. &lt;br&gt;
-God don’t make no junk. There is nobody on this earth that is here &lt;br&gt;
-For no reason. Everybody has a purpose and your purpose is to find &lt;br&gt;
-Your purpose. Your purpose is to find your mission. The place where &lt;br&gt;
-Can make a significant contribution.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Accept the responsibility of your actions :&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;&lt;em&gt;Its not that complicated, its not easy, but it is simple.&lt;/em&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Accept yourself as someone valuable unconditionally :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Accept yourself as a valuable and worth-while Human Being. &lt;br&gt;
-Don’t be the type of person who doesn’t feel they are good enough. &lt;br&gt;
-Recognize that you’re put here on this earth for a specific purpose, &lt;br&gt;
-A valuable purpose. God doesn’t make anybody extra. &lt;br&gt;
-God don’t make no junk. There is nobody on this earth that is here &lt;br&gt;
+Don&amp;rsquo;t be the type of person who doesn&amp;rsquo;t feel they are good enough. &lt;br&gt;
+Recognize that you&amp;rsquo;re put here on this earth for a specific purpose, &lt;br&gt;
+A valuable purpose. God doesn&amp;rsquo;t make anybody extra. &lt;br&gt;
+God don&amp;rsquo;t make no junk. There is nobody on this earth that is here &lt;br&gt;
 For no reason. Everybody has a purpose and your purpose is to find &lt;br&gt;
 Your purpose. Your purpose is to find your mission. The place where &lt;br&gt;
 Can make a significant contribution.&lt;/li&gt;
@@ -281,14 +169,14 @@ Which means no &lt;em&gt;Blaming&lt;/em&gt;, no &lt;em&gt;excuses&lt;/em&gt;.&lt
 All spiritual development straight gate is forgiveness, &lt;br&gt;
 the ability to freely forgive. No grudges, no anger, &lt;br&gt;
 no frustration, just let go up all grudges against you. &lt;br&gt;
-That’s why it says in lord’s prayer. &lt;br&gt;
-‘Forgive us our sins, as we forgive those who sin against us.’&lt;/li&gt;
+That&amp;rsquo;s why it says in lord&amp;rsquo;s prayer. &lt;br&gt;
+&amp;lsquo;Forgive us our sins, as we forgive those who sin against us.&amp;rsquo;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Feed your mind with positive and loving thought :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Don’t feed your mind with mental candy, mental junk. &lt;br&gt;
+&lt;li&gt;Don&amp;rsquo;t feed your mind with mental candy, mental junk. &lt;br&gt;
 Feed you mind with the kinds of though that are consistent &lt;br&gt;
 with you becoming very best person you can be possibly be.&lt;/li&gt;
 &lt;/ul&gt;
@@ -307,52 +195,33 @@ these the ideals of the very good person that you can possibly be.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-
-      </content>
-    </entry>
-  
-    <entry>
+</description>
+      
+      
+    </item>
+    
+    <item>
       <title>Coffee</title>
-      <link href="https://amritxyz.github.io/write/coffee/"/>
-      <id>https://amritxyz.github.io/write/coffee/</id>
-      <published>2024-08-01T00:00:00Z</published>
-      <updated>2024-08-01T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;&lt;strong&gt;Coffee&lt;/strong&gt;&lt;/p&gt;
+      <link>/write/coffee/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <author>amrit44404@proton.me (Amritxyz)</author>
+      <guid>/write/coffee/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Coffee&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I’m not really sure why I’m writing this, maybe just to share a thought or two.&lt;/p&gt;
-&lt;p&gt;“Love is like coffee and sugar. At first, it’s not about the sweetness, but the warmth it brings. Over time, you figure out the perfect mix. It’s not about what’s on the surface, it’s how we just fit together.”&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Love is like coffee and sugar. At first, it’s not about the sweetness, but the warmth it brings. Over time, you figure out the perfect mix. It’s not about what’s on the surface, it’s how we just fit together.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;I guess that’s how life works too. We’re drawn to things for the comfort they give, not just the shiny parts. Over time, we realize what truly matters is how something or someone makes us feel, like that first cup of coffee in the morning, or the person who just feels like home.&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;&lt;strong&gt;Coffee&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I’m not really sure why I’m writing this, maybe just to share a thought or two.&lt;/p&gt;
-&lt;p&gt;“Love is like coffee and sugar. At first, it’s not about the sweetness, but the warmth it brings. Over time, you figure out the perfect mix. It’s not about what’s on the surface, it’s how we just fit together.”&lt;/p&gt;
-&lt;p&gt;I guess that’s how life works too. We’re drawn to things for the comfort they give, not just the shiny parts. Over time, we realize what truly matters is how something or someone makes us feel, like that first cup of coffee in the morning, or the person who just feels like home.&lt;/p&gt;
-
-      </content>
-    </entry>
-  
-    <entry>
+</description>
+      
+      
+    </item>
+    
+    <item>
       <title>Social media</title>
-      <link href="https://amritxyz.github.io/blog/social_media/"/>
-      <id>https://amritxyz.github.io/blog/social_media/</id>
-      <published>2024-05-20T00:00:00Z</published>
-      <updated>2024-05-20T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;&lt;strong&gt;Are We Really Being Social?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;It’s easy to get caught up in the world of social media, scrolling through endless feeds, liking posts, and commenting on things that may not really matter in the grand scheme of our lives. But have you ever stopped to think: is this really bringing us closer to being social, or is it actually pulling us further away from real connection?&lt;/p&gt;
-&lt;p&gt;Sure, you might argue that it’s just harmless fun, something to kill time. But let’s be honest with ourselves for a moment, we’ve all fallen into the trap of endlessly scrolling, hooked on that constant stream of information. And deep down, we know it’s not just for fun anymore. It’s become an addiction we’re too afraid to admit.&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;&lt;strong&gt;Are We Really Being Social?&lt;/strong&gt;&lt;/p&gt;
+      <link>/blog/social_media/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <author>amrit44404@proton.me (Amritxyz)</author>
+      <guid>/blog/social_media/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Are We Really Being Social?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;It’s easy to get caught up in the world of social media, scrolling through endless feeds, liking posts, and commenting on things that may not really matter in the grand scheme of our lives. But have you ever stopped to think: is this really bringing us closer to being social, or is it actually pulling us further away from real connection?&lt;/p&gt;
 &lt;p&gt;Sure, you might argue that it’s just harmless fun, something to kill time. But let’s be honest with ourselves for a moment, we’ve all fallen into the trap of endlessly scrolling, hooked on that constant stream of information. And deep down, we know it’s not just for fun anymore. It’s become an addiction we’re too afraid to admit.&lt;/p&gt;
 &lt;p&gt;If this hits a nerve, it’s okay, no judgment. But let’s face it: this isn’t real connection. We’re all spending hours of our lives chasing likes, followers, and empty validation instead of truly engaging with the world around us.&lt;/p&gt;
@@ -360,30 +229,20 @@ these the ideals of the very good person that you can possibly be.&lt;/li&gt;
 &lt;p&gt;Here’s the hard truth: to be social, we need to be real. And I can’t help but wonder if this online world we’ve created really qualifies as a community. Because in reality, it’s just a bunch of disconnected people seeking attention and validation from strangers, often at the expense of our own well-being.&lt;/p&gt;
 &lt;p&gt;It’s funny how attached we can get to our online identities. The fear of losing our account, worrying about being hacked. But does it really matter? What’s the value of something so transient?&lt;/p&gt;
 &lt;p&gt;I know, it’s easy to brush these thoughts aside. We’re all guilty of being wrapped up in it. But at the end of the day, I can’t help but wonder: What are we sacrificing by staying glued to our screens?&lt;/p&gt;
-&lt;p&gt;If you’re reading this and feeling something stir, maybe it’s time for a little break. Step outside, breathe in the fresh air, and take a walk. I promise, that’s where the real connection happens out in the world, not through a screen.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re reading this and feeling something stir, maybe it’s time for a little break. Step outside, breathe in the fresh air, and take a walk. I promise, that’s where the real connection happens out in the world, not through a screen.&lt;/p&gt;
 &lt;p&gt;Don’t wait too long. The longer you stay inside, the more you’ll miss out on what life is really about.&lt;/p&gt;
-
-      </content>
-    </entry>
-  
-    <entry>
-      <title>About</title>
-      <link href="https://amritxyz.github.io/about/"/>
-      <id>https://amritxyz.github.io/about/</id>
-      <published>2020-11-12T00:00:00Z</published>
-      <updated>2020-11-12T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;Hello, I’m Amrit Bhattarai. I create things, the most public of which are currently my free and open source software projects.&lt;/p&gt;
-&lt;p&gt;I am currently learning some OpenGL stuffs, along with working on some personal project like a paint and music player application in java,
-and a minimal snake game in c using SDL2 library just for fun.&lt;/p&gt;
-&lt;p&gt;Outside of my software projects I spend my time playing a acoustic guitar, reading, hiking and occasionally playing chess.&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;Hello, I’m Amrit Bhattarai. I create things, the most public of which are currently my free and open source software projects.&lt;/p&gt;
+</description>
+      
+      
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>amrit44404@proton.me (Amritxyz)</author>
+      <guid>/about/</guid>
+      <description>&lt;p&gt;Hello, I’m &lt;strong&gt;Amrit Bhattarai&lt;/strong&gt;. I create things, the most public of which are currently my free and open source software projects.&lt;/p&gt;
 &lt;p&gt;I am currently learning some OpenGL stuffs, along with working on some personal project like a paint and music player application in java,
 and a minimal snake game in c using SDL2 library just for fun.&lt;/p&gt;
 &lt;p&gt;Outside of my software projects I spend my time playing a acoustic guitar, reading, hiking and occasionally playing chess.&lt;/p&gt;
@@ -392,9 +251,48 @@ and a minimal snake game in c using SDL2 library just for fun.&lt;/p&gt;
 (&lt;a href=&#34;/publickey.txt&#34;&gt;PGP key&lt;/a&gt;),
 &lt;a href=&#34;https://www.linkedin.com/in/amrit-bhattarai-30ab42323/&#34;&gt;LinkedIn&lt;/a&gt;
 and can also be found with the username “amritxyz” on mastodon and various IRC networks.&lt;/p&gt;
-&lt;p&gt;The source code for my software projects is hosted on github and sourcehut.&lt;/p&gt;
-
-      </content>
-    </entry>
-  
-</feed>
+&lt;p&gt;The source code for my software projects is hosted on
+&lt;a href=&#34;https://codeberg.org/amrit&#34;&gt;codeberg&lt;/a&gt; and
+&lt;a href=&#34;https://github.com/amritxyz&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+      
+    </item>
+    
+    <item>
+      <title>Consulting</title>
+      <link>/consulting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>amrit44404@proton.me (Amritxyz)</author>
+      <guid>/consulting/</guid>
+      <description>&lt;p&gt;I am a highly experienced software engineer and consultant.&lt;/p&gt;
+&lt;p&gt;My areas of expertise include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Systems programming&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Software architecture&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Protocol design and implementation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Game development&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Profiling and optimization&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open source software&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Feel free to reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt;
+for a resume/CV and further information if you are interested in hiring me.&lt;/p&gt;
+</description>
+      
+      
+    </item>
+    
+  </channel>
+</rss>
