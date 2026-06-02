@@ -1,10 +1,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Amritxyz</title>
   <link href="https://amritxyz.github.io/"/>
-  <updated>2026-06-02T13:15:33&#43;05:45</updated>
+  <updated>2026-06-02T15:11:26&#43;05:45</updated>
   <id>https://amritxyz.github.io/</id>
 
   
+  
+    <entry>
+      <title>Consulting</title>
+      <link href="https://amritxyz.github.io/consulting/"/>
+      <id>https://amritxyz.github.io/consulting/</id>
+      <published>2026-06-02T00:00:00Z</published>
+      <updated>2026-06-02T00:00:00Z</updated>
+
+      <summary type="html">
+        
+          &lt;p&gt;I am a highly experienced software engineer and consultant.&lt;/p&gt;
+&lt;p&gt;My areas of expertise include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Systems programming&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Software architecture&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Protocol design and implementation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Game development&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Profiling and optimization&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open source software&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Feel free to reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt;
+for a resume/CV and further information if you are interested in hiring me.&lt;/p&gt;
+        
+      </summary>
+
+      <content type="html">
+        &lt;p&gt;I am a highly experienced software engineer and consultant.&lt;/p&gt;
+&lt;p&gt;My areas of expertise include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Systems programming&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Software architecture&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Protocol design and implementation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Game development&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Profiling and optimization&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open source software&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Feel free to reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt;
+for a resume/CV and further information if you are interested in hiring me.&lt;/p&gt;
+
+      </content>
+    </entry>
   
     <entry>
       <title>A NULL Romance</title>
@@ -328,71 +393,6 @@ and a minimal snake game in c using SDL2 library just for fun.&lt;/p&gt;
 &lt;a href=&#34;https://www.linkedin.com/in/amrit-bhattarai-30ab42323/&#34;&gt;LinkedIn&lt;/a&gt;
 and can also be found with the username “amritxyz” on mastodon and various IRC networks.&lt;/p&gt;
 &lt;p&gt;The source code for my software projects is hosted on github and sourcehut.&lt;/p&gt;
-
-      </content>
-    </entry>
-  
-    <entry>
-      <title>Consulting</title>
-      <link href="https://amritxyz.github.io/consulting/"/>
-      <id>https://amritxyz.github.io/consulting/</id>
-      <published>0001-01-01T00:00:00Z</published>
-      <updated>0001-01-01T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;I am a highly experienced software engineer and consultant.&lt;/p&gt;
-&lt;p&gt;My areas of expertise include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Systems programming&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Software architecture&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Protocol design and implementation&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Game development&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Profiling and optimization&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Open source software&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Feel free to reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt;
-for a resume/CV and further information if you are interested in hiring me.&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;I am a highly experienced software engineer and consultant.&lt;/p&gt;
-&lt;p&gt;My areas of expertise include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Systems programming&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Software architecture&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Protocol design and implementation&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Game development&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Profiling and optimization&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Open source software&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Feel free to reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt;
-for a resume/CV and further information if you are interested in hiring me.&lt;/p&gt;
 
       </content>
     </entry>
