@@ -42,7 +42,8 @@ a {
 	fill: inherit;
 }
 
-a:hover, .menu-button:hover {
+a:hover,
+.menu-button:hover {
 	color: var(--bg);
 	fill: var(--bg);
 	background-color: var(--fg);
@@ -72,8 +73,8 @@ header nav {
 	border-right: var(--border);
 
 	a {
-		border: 0.3em solid var(--bg);
 		margin: 0.7em;
+		padding: 0.3em;
 
 		svg {
 			display: block;
@@ -132,7 +133,7 @@ header nav {
 	stroke: var(--fg);
 }
 
-#toggle:checked + .nav-bar {
+#toggle:checked+.nav-bar {
 	.menu-icon {
 		display: none;
 	}
@@ -173,7 +174,7 @@ header nav {
 		}
 	}
 
-	#toggle:checked ~ .nav-items {
+	#toggle:checked~.nav-items {
 		display: flex;
 	}
 }
