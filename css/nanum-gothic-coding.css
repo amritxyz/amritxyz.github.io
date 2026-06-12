@@ -1,8 +1,0 @@
-@font-face {
-	font-family: 'Nanum Gothic Coding';
-	font-style: normal;
-	font-weight: 700;
-	unicode-range: U+BB34;
-	src: url(../font/NanumGothicCoding-Bold.woff2) format('woff2'),
-		url(../font/NanumGothicCoding-Bold.woff) format('woff');
-}
