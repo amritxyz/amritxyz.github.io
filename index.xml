@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Amritxyz</title>
   <link href="https://amritxyz.github.io/"/>
-  <updated>2026-09-27T02:45:42&#43;05:45</updated>
+  <updated>2026-09-27T03:06:43&#43;05:45</updated>
   <id>https://amritxyz.github.io/</id>
 
   
@@ -98,8 +98,8 @@
   
     <entry>
       <title>A NULL Romance</title>
-      <link href="https://amritxyz.github.io/poetry/c/"/>
-      <id>https://amritxyz.github.io/poetry/c/</id>
+      <link href="https://amritxyz.github.io/poetry/a_null_romance/"/>
+      <id>https://amritxyz.github.io/poetry/a_null_romance/</id>
       <published>2025-08-10T00:00:00Z</published>
       <updated>2025-08-10T00:00:00Z</updated>
 
@@ -143,8 +143,8 @@ That’s exactly why I need you.&lt;/p&gt;
   
     <entry>
       <title>The 21 Principles of Dokkōdō</title>
-      <link href="https://amritxyz.github.io/blog/dokkodo/"/>
-      <id>https://amritxyz.github.io/blog/dokkodo/</id>
+      <link href="https://amritxyz.github.io/blog/the_21_principles_of_dokkodo/"/>
+      <id>https://amritxyz.github.io/blog/the_21_principles_of_dokkodo/</id>
       <published>2025-07-18T00:00:00Z</published>
       <updated>2025-07-18T00:00:00Z</updated>
 
@@ -193,8 +193,8 @@ That’s exactly why I need you.&lt;/p&gt;
   
     <entry>
       <title>My Two Faves</title>
-      <link href="https://amritxyz.github.io/poetry/faves/"/>
-      <id>https://amritxyz.github.io/poetry/faves/</id>
+      <link href="https://amritxyz.github.io/poetry/my_two_faves/"/>
+      <id>https://amritxyz.github.io/poetry/my_two_faves/</id>
       <published>2025-06-09T00:00:00Z</published>
       <updated>2025-06-09T00:00:00Z</updated>
 
@@ -248,8 +248,8 @@ i write.&lt;/p&gt;
   
     <entry>
       <title>The Simple Path to a Fulfilling Life</title>
-      <link href="https://amritxyz.github.io/blog/life/"/>
-      <id>https://amritxyz.github.io/blog/life/</id>
+      <link href="https://amritxyz.github.io/blog/a_simple_path_to_a_fulfilling_life/"/>
+      <id>https://amritxyz.github.io/blog/a_simple_path_to_a_fulfilling_life/</id>
       <published>2024-08-09T00:00:00Z</published>
       <updated>2024-08-09T00:00:00Z</updated>
 
