@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Amritxyz</title>
   <link href="https://amritxyz.github.io/"/>
-  <updated>2026-06-15T17:26:21&#43;05:45</updated>
+  <updated>2026-09-27T02:03:08&#43;05:45</updated>
   <id>https://amritxyz.github.io/</id>
 
   
@@ -15,58 +15,50 @@
 
       <summary type="html">
         
-          &lt;p&gt;I am a highly experienced software engineer and consultant.&lt;/p&gt;
-&lt;p&gt;My areas of expertise include:&lt;/p&gt;
+          &lt;p&gt;I build systems. Simple, minimal infrastructure, low latency.&lt;/p&gt;
+&lt;h2 id=&#34;systems--low-level&#34;&gt;Systems &amp; Low-Level&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Systems programming&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Software architecture&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Protocol design and implementation&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Game development&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Profiling and optimization&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Open source software&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Systems programming in C, Zig, Rust&lt;/li&gt;
+&lt;li&gt;Custom protocols and network services&lt;/li&gt;
+&lt;li&gt;Software architecture and design&lt;/li&gt;
+&lt;li&gt;Profiling and performance optimization&lt;/li&gt;
+&lt;li&gt;Game development&lt;/li&gt;
+&lt;li&gt;Open source tooling&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Feel free to reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt;
-for a resume/CV and further information if you are interested in hiring me.&lt;/p&gt;
+&lt;h2 id=&#34;backend--web&#34;&gt;Backend &amp; Web&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Full stack applications (Go, Java/Spring Boot, Node.js, React/Next.js)&lt;/li&gt;
+&lt;li&gt;API and data modeling&lt;/li&gt;
+&lt;li&gt;Caching strategies&lt;/li&gt;
+&lt;li&gt;Database query and memory optimization&lt;/li&gt;
+&lt;li&gt;System design for high throughput&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in touch&lt;/h2&gt;
+&lt;p&gt;If you are interested in working together, reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt; (&lt;a href=&#34;/publickey.txt&#34;&gt;PGP key&lt;/a&gt;).&lt;/p&gt;
         
       </summary>
 
       <content type="html">
-        &lt;p&gt;I am a highly experienced software engineer and consultant.&lt;/p&gt;
-&lt;p&gt;My areas of expertise include:&lt;/p&gt;
+        &lt;p&gt;I build systems. Simple, minimal infrastructure, low latency.&lt;/p&gt;
+&lt;h2 id=&#34;systems--low-level&#34;&gt;Systems &amp; Low-Level&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Systems programming&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Software architecture&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Protocol design and implementation&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Game development&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Profiling and optimization&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Open source software&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Systems programming in C, Zig, Rust&lt;/li&gt;
+&lt;li&gt;Custom protocols and network services&lt;/li&gt;
+&lt;li&gt;Software architecture and design&lt;/li&gt;
+&lt;li&gt;Profiling and performance optimization&lt;/li&gt;
+&lt;li&gt;Game development&lt;/li&gt;
+&lt;li&gt;Open source tooling&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Feel free to reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt;
-for a resume/CV and further information if you are interested in hiring me.&lt;/p&gt;
+&lt;h2 id=&#34;backend--web&#34;&gt;Backend &amp; Web&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Full stack applications (Go, Java/Spring Boot, Node.js, React/Next.js)&lt;/li&gt;
+&lt;li&gt;API and data modeling&lt;/li&gt;
+&lt;li&gt;Caching strategies&lt;/li&gt;
+&lt;li&gt;Database query and memory optimization&lt;/li&gt;
+&lt;li&gt;System design for high throughput&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in touch&lt;/h2&gt;
+&lt;p&gt;If you are interested in working together, reach out by &lt;a href=&#34;mailto:amrit44404@proton.me&#34;&gt;email&lt;/a&gt; (&lt;a href=&#34;/publickey.txt&#34;&gt;PGP key&lt;/a&gt;).&lt;/p&gt;
 
       </content>
     </entry>
@@ -223,145 +215,51 @@ i write.&lt;/p&gt;
   
     <entry>
       <title>The Simple Path to a Fulfilling Life</title>
-      <link href="https://amritxyz.github.io/write/life/"/>
-      <id>https://amritxyz.github.io/write/life/</id>
+      <link href="https://amritxyz.github.io/blog/life/"/>
+      <id>https://amritxyz.github.io/blog/life/</id>
       <published>2024-08-09T00:00:00Z</published>
       <updated>2024-08-09T00:00:00Z</updated>
 
       <summary type="html">
         
-          &lt;p&gt;&lt;em&gt;Its not that complicated, its not easy, but it is simple.&lt;/em&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Accept yourself as someone valuable unconditionally :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Accept yourself as a valuable and worth-while Human Being. &lt;br&gt;
-Don’t be the type of person who doesn’t feel they are good enough. &lt;br&gt;
-Recognize that you’re put here on this earth for a specific purpose, &lt;br&gt;
-A valuable purpose. God doesn’t make anybody extra. &lt;br&gt;
-God don’t make no junk. There is nobody on this earth that is here &lt;br&gt;
-For no reason. Everybody has a purpose and your purpose is to find &lt;br&gt;
-Your purpose. Your purpose is to find your mission. The place where &lt;br&gt;
-Can make a significant contribution.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Accept the responsibility of your actions :&lt;/p&gt;
+          &lt;p&gt;It is not that complicated. It is not easy, but it is simple.&lt;/p&gt;
+&lt;p&gt;Accept yourself as someone worthwhile. Do not go around feeling like you are not good enough. You are here for a reason, and your job is to figure out where you can make a real contribution.&lt;/p&gt;
+&lt;p&gt;Take total responsibility for what you are and what you become. That means no blaming others, and no excuses.&lt;/p&gt;
+&lt;p&gt;Learn to forgive, both yourself and others. Holding on to anger and grudges never built anything good. Let them go.&lt;/p&gt;
         
       </summary>
 
       <content type="html">
-        &lt;p&gt;&lt;em&gt;Its not that complicated, its not easy, but it is simple.&lt;/em&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Accept yourself as someone valuable unconditionally :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Accept yourself as a valuable and worth-while Human Being. &lt;br&gt;
-Don’t be the type of person who doesn’t feel they are good enough. &lt;br&gt;
-Recognize that you’re put here on this earth for a specific purpose, &lt;br&gt;
-A valuable purpose. God doesn’t make anybody extra. &lt;br&gt;
-God don’t make no junk. There is nobody on this earth that is here &lt;br&gt;
-For no reason. Everybody has a purpose and your purpose is to find &lt;br&gt;
-Your purpose. Your purpose is to find your mission. The place where &lt;br&gt;
-Can make a significant contribution.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Accept the responsibility of your actions :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Accept total responsibility for everything that you are, &lt;br&gt;
-And everything that you become. &lt;br&gt;
-Which means no &lt;em&gt;Blaming&lt;/em&gt;, no &lt;em&gt;excuses&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Learn to forgive yourself and others without grudges :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The key to kingdom of heaven is forgiveness the key to &lt;br&gt;
-All spiritual development straight gate is forgiveness, &lt;br&gt;
-the ability to freely forgive. No grudges, no anger, &lt;br&gt;
-no frustration, just let go up all grudges against you. &lt;br&gt;
-That’s why it says in lord’s prayer. &lt;br&gt;
-‘Forgive us our sins, as we forgive those who sin against us.’&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Feed your mind with positive and loving thought :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Don’t feed your mind with mental candy, mental junk. &lt;br&gt;
-Feed you mind with the kinds of though that are consistent &lt;br&gt;
-with you becoming very best person you can be possibly be.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Set noble goals and work towards them :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Say to yourself yeah these are the values, these the goal &lt;br&gt;
-these the ideals of the very good person that you can possibly be.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Take care of your body :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Remember the body is the temple of the spirit.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+        &lt;p&gt;It is not that complicated. It is not easy, but it is simple.&lt;/p&gt;
+&lt;p&gt;Accept yourself as someone worthwhile. Do not go around feeling like you are not good enough. You are here for a reason, and your job is to figure out where you can make a real contribution.&lt;/p&gt;
+&lt;p&gt;Take total responsibility for what you are and what you become. That means no blaming others, and no excuses.&lt;/p&gt;
+&lt;p&gt;Learn to forgive, both yourself and others. Holding on to anger and grudges never built anything good. Let them go.&lt;/p&gt;
+&lt;p&gt;Be careful what you feed your mind. Do not waste time on mental junk. Pay attention to the things that help you become a better person.&lt;/p&gt;
+&lt;p&gt;Set solid goals and work toward them. Know what your values are, and stick to them.&lt;/p&gt;
+&lt;p&gt;And take care of your body. Everything else depends on it.&lt;/p&gt;
 
       </content>
     </entry>
   
     <entry>
       <title>Coffee</title>
-      <link href="https://amritxyz.github.io/write/coffee/"/>
-      <id>https://amritxyz.github.io/write/coffee/</id>
+      <link href="https://amritxyz.github.io/blog/coffee/"/>
+      <id>https://amritxyz.github.io/blog/coffee/</id>
       <published>2024-08-01T00:00:00Z</published>
       <updated>2024-08-01T00:00:00Z</updated>
 
       <summary type="html">
         
-          &lt;p&gt;&lt;strong&gt;Coffee&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I’m not really sure why I’m writing this, maybe just to share a thought or two.&lt;/p&gt;
+          &lt;p&gt;I’m not really sure why I’m writing this, maybe just to share a thought or two.&lt;/p&gt;
 &lt;p&gt;“Love is like coffee and sugar. At first, it’s not about the sweetness, but the warmth it brings. Over time, you figure out the perfect mix. It’s not about what’s on the surface, it’s how we just fit together.”&lt;/p&gt;
 &lt;p&gt;I guess that’s how life works too. We’re drawn to things for the comfort they give, not just the shiny parts. Over time, we realize what truly matters is how something or someone makes us feel, like that first cup of coffee in the morning, or the person who just feels like home.&lt;/p&gt;
         
       </summary>
 
       <content type="html">
-        &lt;p&gt;&lt;strong&gt;Coffee&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I’m not really sure why I’m writing this, maybe just to share a thought or two.&lt;/p&gt;
+        &lt;p&gt;I’m not really sure why I’m writing this, maybe just to share a thought or two.&lt;/p&gt;
 &lt;p&gt;“Love is like coffee and sugar. At first, it’s not about the sweetness, but the warmth it brings. Over time, you figure out the perfect mix. It’s not about what’s on the surface, it’s how we just fit together.”&lt;/p&gt;
 &lt;p&gt;I guess that’s how life works too. We’re drawn to things for the comfort they give, not just the shiny parts. Over time, we realize what truly matters is how something or someone makes us feel, like that first cup of coffee in the morning, or the person who just feels like home.&lt;/p&gt;
-
-      </content>
-    </entry>
-  
-    <entry>
-      <title>Social media</title>
-      <link href="https://amritxyz.github.io/blog/social_media/"/>
-      <id>https://amritxyz.github.io/blog/social_media/</id>
-      <published>2024-05-20T00:00:00Z</published>
-      <updated>2024-05-20T00:00:00Z</updated>
-
-      <summary type="html">
-        
-          &lt;p&gt;&lt;strong&gt;Are We Really Being Social?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;It’s easy to get caught up in the world of social media, scrolling through endless feeds, liking posts, and commenting on things that may not really matter in the grand scheme of our lives. But have you ever stopped to think: is this really bringing us closer to being social, or is it actually pulling us further away from real connection?&lt;/p&gt;
-&lt;p&gt;Sure, you might argue that it’s just harmless fun, something to kill time. But let’s be honest with ourselves for a moment, we’ve all fallen into the trap of endlessly scrolling, hooked on that constant stream of information. And deep down, we know it’s not just for fun anymore. It’s become an addiction we’re too afraid to admit.&lt;/p&gt;
-        
-      </summary>
-
-      <content type="html">
-        &lt;p&gt;&lt;strong&gt;Are We Really Being Social?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;It’s easy to get caught up in the world of social media, scrolling through endless feeds, liking posts, and commenting on things that may not really matter in the grand scheme of our lives. But have you ever stopped to think: is this really bringing us closer to being social, or is it actually pulling us further away from real connection?&lt;/p&gt;
-&lt;p&gt;Sure, you might argue that it’s just harmless fun, something to kill time. But let’s be honest with ourselves for a moment, we’ve all fallen into the trap of endlessly scrolling, hooked on that constant stream of information. And deep down, we know it’s not just for fun anymore. It’s become an addiction we’re too afraid to admit.&lt;/p&gt;
-&lt;p&gt;If this hits a nerve, it’s okay, no judgment. But let’s face it: this isn’t real connection. We’re all spending hours of our lives chasing likes, followers, and empty validation instead of truly engaging with the world around us.&lt;/p&gt;
-&lt;p&gt;And don’t even get me started on influencers. Many of them make a living promoting products they’ve never even used, selling a lifestyle that’s as fake as their #ad posts. It’s all part of the same cycle: a race to consumerism and validation in an artificial, digital world.&lt;/p&gt;
-&lt;p&gt;Here’s the hard truth: to be social, we need to be real. And I can’t help but wonder if this online world we’ve created really qualifies as a community. Because in reality, it’s just a bunch of disconnected people seeking attention and validation from strangers, often at the expense of our own well-being.&lt;/p&gt;
-&lt;p&gt;It’s funny how attached we can get to our online identities. The fear of losing our account, worrying about being hacked. But does it really matter? What’s the value of something so transient?&lt;/p&gt;
-&lt;p&gt;I know, it’s easy to brush these thoughts aside. We’re all guilty of being wrapped up in it. But at the end of the day, I can’t help but wonder: What are we sacrificing by staying glued to our screens?&lt;/p&gt;
-&lt;p&gt;If you’re reading this and feeling something stir, maybe it’s time for a little break. Step outside, breathe in the fresh air, and take a walk. I promise, that’s where the real connection happens out in the world, not through a screen.&lt;/p&gt;
-&lt;p&gt;Don’t wait too long. The longer you stay inside, the more you’ll miss out on what life is really about.&lt;/p&gt;
 
       </content>
     </entry>
