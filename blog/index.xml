@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Amritxyz</title>
   <link href="https://amritxyz.github.io/"/>
-  <updated>2026-09-27T03:10:59&#43;05:45</updated>
+  <updated>2026-09-27T22:01:54&#43;05:45</updated>
   <id>https://amritxyz.github.io/</id>
 
   
@@ -15,7 +15,7 @@
 
       <summary type="html">
         
-          &lt;h2 id=&#34;why-my-person-website-uses-no-javascript&#34;&gt;Why My Person Website Uses No JavaScript&lt;/h2&gt;
+          &lt;h2 id=&#34;why-my-personal-website-uses-no-javascript&#34;&gt;Why My Personal Website Uses No JavaScript&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;I will use “portfolio” instead of “personal website” throughout this blog&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I’ve intentionally kept my portfolio simple. There’s no React, no JavaScript framework, and no large frontend stack behind it. It’s just HTML and CSS.&lt;/p&gt;
 &lt;p&gt;For a portfolio, I don’t really see a reason to add JavaScript when the content itself doesn’t need it. I mainly need a few pages, some typography, links, images, and a way to present my work. HTML and CSS are more than enough for that.&lt;/p&gt;
@@ -23,7 +23,7 @@
       </summary>
 
       <content type="html">
-        &lt;h2 id=&#34;why-my-person-website-uses-no-javascript&#34;&gt;Why My Person Website Uses No JavaScript&lt;/h2&gt;
+        &lt;h2 id=&#34;why-my-personal-website-uses-no-javascript&#34;&gt;Why My Personal Website Uses No JavaScript&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;I will use “portfolio” instead of “personal website” throughout this blog&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I’ve intentionally kept my portfolio simple. There’s no React, no JavaScript framework, and no large frontend stack behind it. It’s just HTML and CSS.&lt;/p&gt;
 &lt;p&gt;For a portfolio, I don’t really see a reason to add JavaScript when the content itself doesn’t need it. I mainly need a few pages, some typography, links, images, and a way to present my work. HTML and CSS are more than enough for that.&lt;/p&gt;
