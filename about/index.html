@@ -25,11 +25,18 @@
 
 <div class="navbar">
 	<img class="navbar-avatar" src="/avatar.webp" width="136" height="100" alt="Amritxyz" loading="eager" decoding="async">
-	<a href="/" class="">Home</a>
-	<a href="/about/" class="active">About</a>
-	<a href="/blog/" class="">Blog</a>
-	<a href="/poetry/" class="">Poetry</a>
-	<a href="/consulting/" class="">Consulting</a>
+	<input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation">
+	<label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+		<span class="nav-toggle-open">☰</span>
+		<span class="nav-toggle-close">✕</span>
+	</label>
+	<nav class="nav-links">
+		<a href="/" class="">Home</a>
+		<a href="/about/" class="active">About</a>
+		<a href="/blog/" class="">Blog</a>
+		<a href="/poetry/" class="">Poetry</a>
+		<a href="/consulting/" class="">Consulting</a>
+	</nav>
 </div>
 
 
@@ -39,16 +46,18 @@
 
 	<div class="content">
 		
-		<p>Hello, I’m Amrit Bhattarai. I create things, the most public of which are currently my free and open source software projects.</p>
-<p>I am currently learning some OpenGL stuffs, along with working on some personal project like a paint and music player application in java,
-and a minimal snake game in c using SDL2 library just for fun.</p>
-<p>Outside of my software projects I spend my time playing a acoustic guitar, reading, hiking and occasionally playing chess.</p>
+		<p>Hello, I’m Amrit Bhattarai. I write software and work on small projects.</p>
+<p>These days I’m learning more about OpenGL and graphics programming. I also work
+on web related stuffs, including a marketplace with Go and Gin, POS
+application with Tanstack start.</p>
+<p>Outside of programming, I play acoustic guitar, read, hike, and sometimes play chess.</p>
 <p>I can be reached by
 <a href="mailto:amrit44404@proton.me">email</a>,
 (<a href="/publickey.txt">PGP key</a>),
-<a href="https://www.linkedin.com/in/amrit-bhattarai-30ab42323/">LinkedIn</a>
-and can also be found with the username “amritxyz” on mastodon and various IRC networks.</p>
-<p>The source code for my software projects is hosted on github and sourcehut.</p>
+or <a href="https://www.linkedin.com/in/amrit-bhattarai-30ab42323/">LinkedIn</a>.</p>
+<p>I use <code>amritxyz</code> on Mastodon and various IRC networks. My software projects are
+hosted on <a href="https://codeberg.org/amrit">Codeberg</a>
+and <a href="https://github.com/amritxyz">GitHub</a>.</p>
 
 		
 	</div>

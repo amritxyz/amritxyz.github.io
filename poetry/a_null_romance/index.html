@@ -25,11 +25,18 @@
 
 <div class="navbar">
 	<img class="navbar-avatar" src="/avatar.webp" width="136" height="100" alt="Amritxyz" loading="eager" decoding="async">
-	<a href="/" class="">Home</a>
-	<a href="/about/" class="">About</a>
-	<a href="/blog/" class="">Blog</a>
-	<a href="/poetry/" class="active">Poetry</a>
-	<a href="/consulting/" class="">Consulting</a>
+	<input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation">
+	<label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+		<span class="nav-toggle-open">☰</span>
+		<span class="nav-toggle-close">✕</span>
+	</label>
+	<nav class="nav-links">
+		<a href="/" class="">Home</a>
+		<a href="/about/" class="">About</a>
+		<a href="/blog/" class="">Blog</a>
+		<a href="/poetry/" class="active">Poetry</a>
+		<a href="/consulting/" class="">Consulting</a>
+	</nav>
 </div>
 
 
