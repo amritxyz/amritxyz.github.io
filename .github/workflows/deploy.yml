@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -35,13 +35,24 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
+      # Update README in amritxyz repository
+      - name: Clone profile repository
+        env:
+          README_TOKEN: ${{ secrets.README_TOKEN }}
+        run: |
+          git -c http.extraheader="AUTHORIZATION: bearer ${README_TOKEN}" \
+            clone https://github.com/amritxyz/amritxyz.git profile
+
       - name: Generate README
         run: |
           python3 <<'PY'
           from pathlib import Path
           import re
 
-          template = Path("README.template.md").read_text()
+          template_path = Path("profile/README.template.md")
+          output_path = Path("profile/README.md")
+
+          template = template_path.read_text()
 
           posts = []
 
@@ -51,8 +62,11 @@ jobs:
 
               text = path.read_text()
 
+              # Support both YAML and TOML front matter:
+              # title: "Something"
+              # title = "Something"
               title_match = re.search(
-                  r'^title:\s*["\']?(.*?)["\']?\s*$',
+                  r'^(?:title)\s*[:=]\s*["\']?(.*?)["\']?\s*$',
                   text,
                   re.MULTILINE
               )
@@ -60,11 +74,11 @@ jobs:
               title = (
                   title_match.group(1).strip()
                   if title_match
-                  else path.stem
+                  else path.stem.replace("_", " ").replace("-", " ").title()
               )
 
               date_match = re.search(
-                  r'^date:\s*["\']?(.*?)["\']?\s*$',
+                  r'^(?:date)\s*[:=]\s*["\']?(.*?)["\']?\s*$',
                   text,
                   re.MULTILINE
               )
@@ -75,8 +89,12 @@ jobs:
                   else ""
               )
 
+              # content/blog/my-post.md
+              # -> https://amritxyz.github.io/blog/my-post/
               relative = path.relative_to("content")
-              url = "/" + str(relative.with_suffix("")).replace("\\", "/") + "/"
+              slug = str(relative.with_suffix("")).replace("\\", "/")
+
+              url = f"https://amritxyz.github.io/{slug}/"
 
               posts.append({
                   "title": title,
@@ -84,6 +102,7 @@ jobs:
                   "url": url,
               })
 
+          # Newest posts first
           posts.sort(
               key=lambda post: post["date"],
               reverse=True
@@ -102,10 +121,28 @@ jobs:
               blog_list
           )
 
-          Path("README.md").write_text(readme)
+          output_path.write_text(readme)
           PY
 
+      - name: Commit README changes
+        working-directory: profile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "README.md is already up to date."
+            exit 0
+          fi
+
+          git commit -m "chore: update README blog list"
+          git push
+
+      # Build and deploy
       - name: Setup GitHub Pages
+        id: pages
         uses: actions/configure-pages@v6
 
       - name: Build Hugo
