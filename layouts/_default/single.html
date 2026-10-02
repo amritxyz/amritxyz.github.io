@@ -1,0 +1,21 @@
+{{ partial "head.html" . }}
+{{ partial "navbar.html" . }}
+
+<main class="{{ .Section }}">
+	<h1>{{ .Title }}</h1>
+	{{ if and .Date (in (slice "blog" "poetry") .Section) }}
+	<time>{{ .Date.Format "02 Jan 2006" }}</time>
+	{{ end }}
+
+	<div class="content">
+		{{ if or (eq .Params.type "poem") (eq .Section "poetry") }}
+		<div class="poem">{{ .Content }}</div>
+		{{ else if or (eq .Params.type "consulting") }}
+		<div class="consulting">{{ .Content }}</div>
+		{{ else }}
+		{{ .Content }}
+		{{ end }}
+	</div>
+</main>
+
+{{ partial "footer.html" . }}

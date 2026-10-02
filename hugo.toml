@@ -1,0 +1,31 @@
+baseURL = "https://amritxyz.github.io/"
+locale = "en-us"
+title = "Amritxyz"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  author = "Amrit Bhattarai"
+  handle = "amritxyz"
+  email = "amrit44404@proton.me"
+  github = "amritxyz/amritxyz.github.io"
+  description = "Personal website of Amrit Bhattarai. Software developer focusing on systems programming, minimal software, and backend services."
+
+[outputs]
+  home = ["HTML", "Atom"]
+  page = ["HTML"]
+  section = ["HTML", "Atom"]
+
+[services]
+  [services.rss]
+    limit = 20
+
+[mediaTypes."application/atom+xml"]
+  suffixes = ["xml"]
+
+[outputFormats.Atom]
+  mediaType = "application/atom+xml"
+  baseName = "index"
+  isPlainText = false
+  isHTML = false
+  noUgly = true
+  rel = "alternate"

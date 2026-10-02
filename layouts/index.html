@@ -1,0 +1,37 @@
+{{ partial "head.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<main id="home">
+	<h1 class="anchor" id="homepage">Homepage</h1>
+	<p>This is my personal site where I share things which I find interesting.
+	As of now it is mostly tech related, but that might change in the future.</p>
+
+	<p>A small tour of the various section of this site:</p>
+	<ul>
+		<li><a href="/blog/">Blog</a> Is where I share updates and principles.</li>
+		<li><a href="/poetry/">Poetry</a> Is where I post my poems.</li>
+		<li><a href="/consulting/">Consulting</a> Highlights my software engineering expertise.</li>
+	</ul>
+
+	<h2 class="anchor" id="recent-articles">Recent Articles</h2>
+	<ul>
+		{{ range (first 5 (where .Site.RegularPages "Section" "in" (slice "blog" "poetry"))) }}
+		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+		{{ end }}
+	</ul>
+
+	<h2 class="anchor" id="about-me">About me</h2>
+	<ul>
+		<li><a href="https://codeberg.org/amrit">My CodeBerg</a> Is what I use for hosting my projects.</li>
+		<li><a href="https://github.com/amritxyz">My GitHub</a> Is used mainly for collaborating and open source projects.</li>
+		<li><a href="/about/">My Background</a> Is my about page with skills and hobbies.</li>
+	</ul>
+
+	<h2 class="anchor" id="contact">Contact</h2>
+	<ul>
+		<li>Email: amrit44404 <code>AT</code> proton <code>DOT</code> me (<a href="/publickey.txt">PGP Key</a>)</li>
+	</ul>
+</main>
+
+{{ partial "footer.html" . }}

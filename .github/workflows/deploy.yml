@@ -1,0 +1,123 @@
+name: Build and deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: 0.167.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
+
+      - name: Generate README
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          import re
+
+          template = Path("README.template.md").read_text()
+
+          posts = []
+
+          for path in Path("content/blog").rglob("*.md"):
+              if path.name == "_index.md":
+                  continue
+
+              text = path.read_text()
+
+              title_match = re.search(
+                  r'^title:\s*["\']?(.*?)["\']?\s*$',
+                  text,
+                  re.MULTILINE
+              )
+
+              title = (
+                  title_match.group(1).strip()
+                  if title_match
+                  else path.stem
+              )
+
+              date_match = re.search(
+                  r'^date:\s*["\']?(.*?)["\']?\s*$',
+                  text,
+                  re.MULTILINE
+              )
+
+              date = (
+                  date_match.group(1).strip()
+                  if date_match
+                  else ""
+              )
+
+              relative = path.relative_to("content")
+              url = "/" + str(relative.with_suffix("")).replace("\\", "/") + "/"
+
+              posts.append({
+                  "title": title,
+                  "date": date,
+                  "url": url,
+              })
+
+          posts.sort(
+              key=lambda post: post["date"],
+              reverse=True
+          )
+
+          blog_list = "\n".join(
+              f"- [{post['title']}]({post['url']})"
+              for post in posts
+          )
+
+          if not blog_list:
+              blog_list = "_No blog posts yet._"
+
+          readme = template.replace(
+              "{{blog_list}}",
+              blog_list
+          )
+
+          Path("README.md").write_text(readme)
+          PY
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Build Hugo
+        run: |
+          rm -rf public
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Upload Hugo public directory
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,29 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ .Site.Title }}</title>
+  <link href="{{ .Site.BaseURL }}"/>
+  <updated>{{ now.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+  <id>{{ .Site.BaseURL }}</id>
+
+  {{/* Loop over all regular pages excluding unwanted ones */}}
+  {{ range where .Site.RegularPages "File.BaseFileName" "not in" (slice "imprint") }}
+    <entry>
+      <title>{{ .Title }}</title>
+      <link href="{{ .Permalink }}"/>
+      <id>{{ .Permalink }}</id>
+      <published>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</published>
+      <updated>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+
+      <summary type="html">
+        {{ with .Params.description }}
+          {{ . | htmlUnescape }}
+        {{ else }}
+          {{ .Summary | htmlUnescape }}
+        {{ end }}
+      </summary>
+
+      <content type="html">
+        {{ .Content | htmlUnescape }}
+      </content>
+    </entry>
+  {{ end }}
+</feed>

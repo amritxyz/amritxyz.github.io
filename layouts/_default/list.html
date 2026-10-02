@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+{{ partial "navbar.html" . }}
+
+<main class="{{ .Section }}">
+	<h1>{{ .Title }}</h1>
+
+	{{ with .Content }}
+	<div class="content">
+		{{ . }}
+	</div>
+	{{ end }}
+
+	<ul>
+		{{ range .Pages }}
+		<li>
+			<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+			{{ if .Date }}
+			<span class="meta-date">({{ .Date.Format "2006-01-02" }})</span>
+			{{ end }}
+		</li>
+		{{ end }}
+	</ul>
+</main>
+
+{{ partial "footer.html" . }}
