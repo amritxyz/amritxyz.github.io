@@ -1,7 +1,6 @@
-```yaml
 name: Build and deploy
 
-on:
+"on":
   push:
     branches:
       - main
@@ -66,9 +65,9 @@ jobs:
               text = path.read_text()
 
               # Support both YAML and TOML front matter:
-              #
               # title: "Something"
               # title = "Something"
+
               title_match = re.search(
                   r'^(?:title)\s*[:=]\s*["\']?(.*?)["\']?\s*$',
                   text,
@@ -94,9 +93,9 @@ jobs:
               )
 
               # content/blog/my-post.md
-              #
               # becomes:
               # https://amritxyz.github.io/blog/my-post/
+
               relative = path.relative_to("content")
               slug = str(relative.with_suffix("")).replace("\\", "/")
 
@@ -122,7 +121,7 @@ jobs:
           if not blog_list:
               blog_list = "_No blog posts yet._"
 
-          # Replace {{blog_list}} in README.template.md
+          # Replace {{blog_list}}
           readme = template.replace(
               "{{blog_list}}",
               blog_list
@@ -133,7 +132,7 @@ jobs:
           print(f"Generated README with {len(posts)} blog post(s).")
           PY
 
-      # Push README to amritxyz repository
+      # Push README to profile repository
       - name: Commit README changes
         working-directory: profile
         run: |
@@ -150,23 +149,24 @@ jobs:
           git commit -m "chore: update README blog list"
           git push
 
-      # Build site
+      # Setup GitHub Pages
       - name: Setup GitHub Pages
         id: pages
         uses: actions/configure-pages@v6
 
+      # Build Hugo
       - name: Build Hugo
         run: |
           rm -rf public
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      # Deploy public directory
+      # Upload generated public directory
       - name: Upload Hugo public directory
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
