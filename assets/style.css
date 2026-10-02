@@ -122,9 +122,11 @@ pre, code {
 
 code, kbd {
 	background-color: var(--col_code_bg);
-	padding: 2px 5px;
+	padding: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	border: 1px solid var(--col_code_border);
-	border-radius: 2px;
+	/* border-radius: 2px; */
 }
 
 kbd {
@@ -134,7 +136,7 @@ kbd {
 pre {
 	background-color: var(--col_code_bg);
 	border: 1px solid var(--col_code_border);
-	border-radius: 2px;
+	/* border-radius: 2px; */
 	overflow: auto;
 	padding: 12px;
 }
@@ -157,7 +159,7 @@ blockquote {
 	border-left: 3px solid var(--col_border_accent);
 	background-color: var(--col_bg_quote);
 	padding: 8px 14px;
-	border-radius: 0 2px 2px 0;
+	/* border-radius: 0 2px 2px 0; */
 }
 
 /* lists "=> " style */
@@ -202,7 +204,7 @@ ol > li {
 	margin: 18px 0;
 	background-color: var(--col_bg_quote);
 	padding: 12px 16px;
-	border-radius: 0 2px 2px 0;
+	/* border-radius: 0 2px 2px 0; */
 }
 
 .poem p {
@@ -238,7 +240,7 @@ ol > li {
 	display: flex;
 	align-items: center;
 	border: 1px solid var(--col_border);
-	border-radius: 2px;
+	/* border-radius: 2px; */
 	overflow: hidden;
 }
 
@@ -299,7 +301,7 @@ ol > li {
 	margin-left: auto;
 	margin-right: 12px;
 	border: 1px solid var(--col_border_accent);
-	border-radius: 2px;
+	/* border-radius: 2px; */
 	color: var(--col_link);
 	font-weight: bold;
 	font-size: 1.1rem;
@@ -424,7 +426,7 @@ footer a:hover {
 @media (max-width: 400px) {
 	body {
 		font-size: 82%; /* ~13px base font for compact phones */
-		line-height: 19px;
+		line-height: 20px;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
@@ -433,4 +435,68 @@ footer a:hover {
 		padding: 8px 12px;
 		font-size: 0.9rem;
 	}
+}
+
+/* syntax highlighting */
+.chroma {
+	color: var(--col_fg);
+	background-color: var(--col_code_bg);
+}
+
+.chroma .k,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .kt {
+	color: var(--col_blue);
+}
+
+.chroma .nf,
+.chroma .na {
+	color: var(--col_green);
+}
+
+.chroma .s,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .dl,
+.chroma .sd,
+.chroma .s2,
+.chroma .se,
+.chroma .sh,
+.chroma .si,
+.chroma .sx,
+.chroma .sr,
+.chroma .s1,
+.chroma .ss {
+	color: var(--col_green);
+}
+
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .mo,
+.chroma .il {
+	color: var(--col_orange);
+}
+
+.chroma .o,
+.chroma .ow {
+	color: var(--col_red);
+}
+
+.chroma .c,
+.chroma .ch,
+.chroma .cm,
+.chroma .c1,
+.chroma .cs {
+	color: var(--col_fg_dim);
+}
+
+.chroma .p {
+	color: var(--col_fg);
 }

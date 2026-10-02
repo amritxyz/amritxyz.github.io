@@ -1,5 +1,5 @@
 +++
-title = 'Say no to javascript'
+title = 'Say no to Javascript'
 type = 'blog'
 date = 2026-09-26
 +++

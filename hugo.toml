@@ -29,3 +29,6 @@ disableKinds = ["taxonomy", "term"]
   isHTML = false
   noUgly = true
   rel = "alternate"
+
+[markup.highlight]
+    noClasses = false
