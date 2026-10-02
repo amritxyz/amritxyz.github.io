@@ -3,8 +3,6 @@ title = 'Building My Own 2D Graphics Library in C'
 date = 2026-08-07
 +++
 
-*In this blog, I will call the library "libgfx".*
-
 I am a university student and currently learning OpenGL. When I started, I was surprised. To draw a simple shape on the screen, you need a lot of setup. First, you create a window. Then you load the OpenGL functions, compile shaders, and create buffers. Only after that you can draw something. I thought drawing a triangle would be very easy, but it was not.
 
 So I built libgfx. It is a small 2D graphics library written in C99, and it works on Linux, macOS, and Windows. The idea is simple: open a window and draw things with only a few lines of code. I also wanted to see what OpenGL is doing, not hide it. I thought the best way to understand all the setup was to write it myself.
