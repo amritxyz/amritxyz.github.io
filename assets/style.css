@@ -291,8 +291,8 @@ ol>li {
 .nav-links a {
 	font-weight: bold;
 	text-align: center;
-	padding: 8px 16px;
-	font-size: 100%;
+	padding: 12px 18px;
+	font-size: 1rem;
 	line-height: 1.2;
 	border: 1px solid var(--col_border_accent);
 	border-left: none;
@@ -370,10 +370,10 @@ footer a:hover {
 
 	.navbar {
 		width: auto;
-		border-left: none;
+		/* border-left: none;
 		border-right: none;
 		margin-left: -14px;
-		margin-right: -14px;
+		margin-right: -14px; */
 		flex-wrap: nowrap;
 	}
 
@@ -393,7 +393,7 @@ footer a:hover {
 	}
 
 	.nav-links a {
-		padding: 10px 12px;
+		padding: 10px 16px;
 		font-size: 1rem;
 	}
 
@@ -433,7 +433,7 @@ footer a:hover {
 	}
 
 	.nav-links a {
-		padding: 8px 9px;
+		padding: 8px 10px;
 		font-size: 0.9rem;
 	}
 }
