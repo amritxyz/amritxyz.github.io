@@ -25,6 +25,6 @@ I build systems. Simple, minimal infrastructure, low latency.
 
 ## Get in touch
 
-<!-- Email: [amrit44404@proton.me](mailto:amrit44404@proton.me) -->
+<!-- Email: [amritxyz0@gmail.com](mailto:amritxyz0@gmail.com) -->
 <!-- PGP: [public key](/publickey.txt) -->
-If you are interested in working together, reach out by [email](mailto:amrit44404@proton.me) ([PGP key](/publickey.txt)).
+If you are interested in working together, reach out by [email](mailto:amritxyz0@gmail.com) ([PGP key](/publickey.txt)).

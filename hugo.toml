@@ -6,7 +6,7 @@ disableKinds = ["taxonomy", "term"]
 [params]
   author = "Amrit Bhattarai"
   handle = "amritxyz"
-  email = "amrit44404@proton.me"
+  email = "amritxyz0@gmail.com"
   github = "amritxyz/amritxyz.github.io"
   description = "Personal website of Amrit Bhattarai. Software developer focusing on systems programming, minimal software, and backend services."
 
@@ -31,4 +31,7 @@ disableKinds = ["taxonomy", "term"]
   rel = "alternate"
 
 [markup.highlight]
-    noClasses = false
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = true

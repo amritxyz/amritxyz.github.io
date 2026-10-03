@@ -11,12 +11,11 @@
 	<ul>
 		<li><a href="/blog/">Blog</a> Is where I share updates and principles.</li>
 		<li><a href="/poetry/">Poetry</a> Is where I post my poems.</li>
-		<li><a href="/consulting/">Consulting</a> Highlights my software engineering expertise.</li>
 	</ul>
 
-	<h2 class="anchor" id="recent-articles">Recent Articles</h2>
+	<h2 class="anchor" id="recent-blogs">Recent Blogs</h2>
 	<ul>
-		{{ range (first 5 (where .Site.RegularPages "Section" "in" (slice "blog" "poetry"))) }}
+		{{ range (first 3 (where .Site.RegularPages "Section" "in" (slice "blog"))) }}
 		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 		{{ end }}
 	</ul>
@@ -30,8 +29,9 @@
 
 	<h2 class="anchor" id="contact">Contact</h2>
 	<ul>
-		<li>Email: amrit44404 <code>AT</code> proton <code>DOT</code> me (<a href="/publickey.txt">PGP Key</a>)</li>
+		<li>{{ partial "email.html" . }} (<a href="/publickey.txt">PGP Key</a>)</li>
 	</ul>
 </main>
+
 
 {{ partial "footer.html" . }}
