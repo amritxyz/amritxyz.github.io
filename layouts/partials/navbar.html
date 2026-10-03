@@ -1,12 +1,7 @@
 <div class="navbar">
 	<img class="navbar-avatar" src="/avatar.webp" width="136" height="100" alt="Amritxyz" loading="eager" decoding="async">
-	<input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation">
-	<label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
-		<span class="nav-toggle-open">☰</span>
-		<span class="nav-toggle-close">✕</span>
-	</label>
 	<nav class="nav-links">
-		<a href="/" class="{{ if .IsHome }}active{{ end }}">Home</a>
+		<a href="/" class="{{ if .IsHome }}active{{ end }} home-navbar">Home</a>
 		<a href="/blog/" class="{{ if or (eq .RelPermalink "/blog/") (eq .Section "blog") }}active{{ end }}">Blog</a>
 		<a href="/poetry/" class="{{ if or (eq .RelPermalink "/poetry/") (eq .Section "poetry") }}active{{ end }}">Poetry</a>
 		<a href="/about/" class="{{ if or (eq .RelPermalink "/about/") (eq .Title "About") }}active{{ end }}">About</a>

@@ -10,7 +10,7 @@ import io
 import os
 import sys
 from pathlib import Path
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageOps
 
 
 def find_default_avatar(root_dir: Path) -> Path | None:
@@ -27,30 +27,25 @@ def find_default_avatar(root_dir: Path) -> Path | None:
     return None
 
 
-def crop_to_circle(image: Image.Image, box=None) -> Image.Image:
+
+def crop_to_circle(image, box=None, max_out=512):
     w, h = image.size
     if box:
         x0, y0, size = box
+        if x0 < 0 or y0 < 0 or x0 + size > w or y0 + size > h:
+            sys.exit(f"Crop box {box} is outside the {w}x{h} image")
     else:
-        # Default smart center crop
         size = min(w, h)
-        x0 = (w - size) // 2
-        y0 = (h - size) // 2
+        x0, y0 = (w - size) // 2, (h - size) // 2
 
-    cropped = image.crop((x0, y0, x0 + size, y0 + size))
+    out = min(size, max_out)
+    cropped = image.crop((x0, y0, x0 + size, y0 + size)).resize((out, out), Image.Resampling.LANCZOS)
 
-    # 4x supersampled circular mask for ultra-smooth anti-aliasing
-    scale = 4
-    mask_size = size * scale
-    mask = Image.new("L", (mask_size, mask_size), 0)
-    draw = ImageDraw.Draw(mask)
-    draw.ellipse((0, 0, mask_size - 1, mask_size - 1), fill=255)
-    mask = mask.resize((size, size), Image.Resampling.LANCZOS)
-
-    round_img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    round_img.paste(cropped, (0, 0), mask)
-    return round_img
-
+    big = out * 4
+    mask = Image.new("L", (big, big), 0)
+    ImageDraw.Draw(mask).ellipse((0, 0, big - 1, big - 1), fill=255)
+    cropped.putalpha(mask.resize((out, out), Image.Resampling.LANCZOS))
+    return cropped
 
 def main():
     parser = argparse.ArgumentParser(
@@ -101,7 +96,7 @@ def main():
     print(f"Processing source image: {input_path} ({input_path.stat().st_size // 1024} KB)")
 
     try:
-        src = Image.open(input_path).convert("RGBA")
+        src = ImageOps.exif_transpose(Image.open(input_path)).convert("RGBA")
     except Exception as e:
         print(f"Error opening image {input_path}: {e}", file=sys.stderr)
         sys.exit(1)

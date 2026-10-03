@@ -2,6 +2,8 @@
 date = '2020-11-12'
 +++
 
+# About
+
 Hello, I’m Amrit Bhattarai. I write software and work on small projects.
 
 I love systems programming, and I write small tools in C, Rust, and Zig to learn
